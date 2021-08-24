@@ -1,0 +1,9 @@
+version: "3"
+services: 
+  docker-nginx:
+    image: nginx
+    volumes: 
+      - /home/Nginx:/usr/share/nginx/html 
+    ports:
+      - "80:80"    
+    
